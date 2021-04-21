@@ -9,3 +9,11 @@ main {
     height: 100vh;
     background-color: purple;
 }
+section {
+    width: 80%;
+    min-width: 320px;
+    max-width: 500px;
+    min-height: 500px;
+    background-color: red;
+    margin: 0 auto;
+}
