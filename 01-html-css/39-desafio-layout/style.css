@@ -6,7 +6,7 @@
 header {
   width: 100vw;
   height: 5vh;
-  background-color: peachpuff;
+  background-color: lightseagreen;
   padding: 15px;
 }
 .logo {
@@ -17,18 +17,20 @@ header {
 }
 .nav li{
   display: inline-block;
+  margin: 0 20px;
 }
 main {
   background-color: cornflowerblue;
-  height: 77vh;
+  height: 80vh;
 }
 aside {
   display: inline-block;
 }
 aside {
   width: 20vw;
+  height: 80vh;
   background-color: rebeccapurple;
-  padding: 30px 0;
+  min-width: 200px;
 }
 .box {
   width: 80%;
@@ -41,7 +43,17 @@ section {
   display: inline-block;
   position: absolute;
   padding: 30px;
+  height: 80vh;
 }
 footer {
   background-color: gold;
+  height: 5vh;
+  padding: 15px;
+}
+.info, .redes {
+  display: inline-block;
+}
+.redes {
+  float: inline-end;
+  margin: 0 20px;
 }
