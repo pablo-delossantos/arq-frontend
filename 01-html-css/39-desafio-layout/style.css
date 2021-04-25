@@ -18,7 +18,11 @@ header {
 .nav li{
   display: inline-block;
 }
-aside, section {
+main {
+  background-color: cornflowerblue;
+  height: 77vh;
+}
+aside {
   display: inline-block;
 }
 aside {
@@ -32,4 +36,12 @@ aside {
   margin: 20px auto;
   background-color: salmon;
   border-radius: 10px;
+}
+section {
+  display: inline-block;
+  position: absolute;
+  padding: 30px;
+}
+footer {
+  background-color: gold;
 }
